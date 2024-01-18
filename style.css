@@ -1,0 +1,13 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+#game-container {
+    border: solid gold;
+    height: 75vh;
+    width: 40%;
+    border-radius: 15px;
+    background-color: rgb(37, 35, 35);
+    color: white;
+}
