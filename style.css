@@ -1,17 +1,54 @@
 body {
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     height: 100vh;
+    background: linear-gradient(135deg, darkgrey, lime);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h1 {
+    text-align: center;
 }
 
 span {
     font-weight: 100;
 }
 #game-container {
-    border: solid gold;
+    border: solid gold 8px;
     height: 75vh;
     width: 40%;
     border-radius: 15px;
     background-color: rgb(37, 35, 35);
     color: white;
+    padding: 25px;
+    line-height: 2;
+    font-size: 20px;
+}
+
+#player {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: orangered;
+    border-radius: 14px;
+    border: solid;
+    flex-direction: column;
+}
+
+#decisions {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#invsta {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#option1:hover, #option2:hover {
+    background-color: black;
+    cursor: pointer;
 }
